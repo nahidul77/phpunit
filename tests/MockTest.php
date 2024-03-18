@@ -6,7 +6,6 @@ class MockTest extends TestCase
 {
     public function testMock()
     {
-        // $mailer = new Mailer;
 
         $mock = $this->createMock(Mailer::class);
 
